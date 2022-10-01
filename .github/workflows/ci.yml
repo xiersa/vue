@@ -2,10 +2,10 @@ name: 'ci'
 on:
   push:
     branches:
-      - main
+      - fix-12812-test
   pull_request:
     branches:
-      - main
+      - fix-12812-test
 jobs:
   unit-test:
     runs-on: ubuntu-latest
